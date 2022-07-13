@@ -15,7 +15,7 @@
       dark:bg-svg-dark-sm
       dark:md:bg-svg-dark-->
     <div
-      :class="`inset-0 w-full fixed h-full -z-50 block pointer-events-none bg-gray-200 dark:bg-abyss-1100`"
+      :class="`inset-0 w-full fixed h-full -z-50 block pointer-events-none bg-gray-200 dark:bg-chaos-primary`"
     >
       <svg width="100%" height="100vh" class="absolute -z-40">
         <g v-for="(poss, i) in items" :key="`bgItem-${i}`">
@@ -63,7 +63,7 @@
         -z-10
         block
         pointer-events-none
-        dark:bg-abyss-1100/50
+        dark:bg-chaos-primary/50
         bg-gray-300/50
       "
     />

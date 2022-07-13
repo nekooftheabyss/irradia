@@ -5,10 +5,10 @@
         w-full 
         h-12
         p-4
-        bg-maid-100
+        bg-chaos-foreground
         text-gray-900 cursor-pointer
         border-maid-600 border-2
-        dark:bg-abyss-1100 dark:text-white
+        dark:bg-chaos-primary dark:text-white
         flex flex-row
         items-center
         justify-between

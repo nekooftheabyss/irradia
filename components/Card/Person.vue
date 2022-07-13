@@ -10,7 +10,7 @@
         </div>
         <div class="flex flex-col items-center text-center space-y-4">
           <div class="text-3xl font-semibold">{{name}}</div>
-          <div class="text-2xl text-nett-maid">{{title}}</div>
+          <div class="text-2xl text-chaos-foreground">{{title}}</div>
           <div class="text-lg dark:text-zinc-100 text-zinc-900">{{description}}</div>
 
         </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="p-4">
-    <div class="max-w-md rounded-xl bg-gray-300/50 dark:bg-abyss-1000/50 w-full p-4">
+    <div class="max-w-md rounded-xl bg-gray-300/50 dark:bg-chaos-primary/50 w-full p-4">
       <div class="flex flex-col items-stretch space-y-8">
         <div class="shrink-0 flex justify-center">
           <img
@@ -10,7 +10,7 @@
         </div>
         <div class="flex flex-col items-center text-center space-y-4">
           <div class="text-3xl font-semibold">{{name}}</div>
-          <div class="text-2xl text-nett-maid">{{title}}</div>
+          <div class="text-2xl text-chaos-foreground">{{title}}</div>
           <div class="text-lg dark:text-zinc-100 text-zinc-900">{{description}}</div>
 
         </div>

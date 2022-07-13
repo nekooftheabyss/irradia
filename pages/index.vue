@@ -8,8 +8,8 @@
           text-4xl
           lg:text-6xl
           font-extrabold
-          text-center text-abyss-1100
-          dark:text-maid-100
+          text-center text-chaos-primary
+          dark:text-chaos-foreground
         "
       >
         Gaze into the abyss.
@@ -20,7 +20,7 @@
           text-4xl
           lg:text-6xl
           font-extrabold
-          text-center text-abyss-1000
+          text-center text-chaos-primary
           dark:text-maid-200
         "
       >
@@ -32,8 +32,8 @@
           text-4xl
           lg:text-6xl
           font-extrabold
-          text-center text-abyss-1100
-          dark:text-maid-100
+          text-center text-chaos-primary
+          dark:text-chaos-foreground
         "
       >
         It is probably the mysterious cat that resides in it.

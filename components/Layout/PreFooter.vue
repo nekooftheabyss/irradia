@@ -1,16 +1,17 @@
 <template>
   <div
     class="
-      dark:bg-abyss-1000/20
-      bg-abyss-1000/90
-      text-white
+      dark:bg-chaos-primary/20
+      bg-transparent
+      text-chaos-primary
+      dark:text-white
       md:h-48
       p-8
       flex flex-col space-y-8
       items-center
     "
   >
-    <hr class="max-w-6xl border border-nett-maid w-full" />
+    <hr class="max-w-6xl border border-chaos-primary dark:border-chaos-foreground w-full" />
     <div
       class="
         max-w-6xl
@@ -28,7 +29,7 @@
       <div class="p-2 flex flex-col space-y-4 items-start">
         <div class="text-2xl font-black">Neko Of The Abyss</div>
         <span
-          class="flex flex-row items-center stroke-nett-maid stroke-1 space-x-2"
+          class="flex flex-row items-center stroke-chaos-primary dark:stroke-chaos-foreground fill-transparent stroke-1 space-x-2"
         >
           <a
             href="https://nekooftheabyss.moe"
@@ -52,7 +53,7 @@
           flex flex-col
           space-y-6
           items-start
-          stroke-nett-maid stroke-1
+          stroke-chaos-primary dark:stroke-chaos-foreground stroke-1
         "
       >
         <span

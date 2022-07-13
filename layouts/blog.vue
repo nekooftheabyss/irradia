@@ -7,7 +7,7 @@
       text-lg
       tracking-wide
       text-gray-900
-      dark:text-gray-300 dark:bg-abyss-1000
+      dark:text-gray-300 dark:bg-chaos-primary
       bg-white
       font-semibold
       dark:font-normal
@@ -31,7 +31,7 @@
         py-4
         mt-24
         bg-white/40
-        dark:bg-abyss-1000/80
+        dark:bg-chaos-primary/80
         xl:bg-transparent
         dark:xl:bg-transparent
       "

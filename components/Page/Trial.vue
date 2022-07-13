@@ -38,7 +38,7 @@
                     v-model="input.text"
                     @keyup="submitOrNah"
                     type="text"
-                    class="border-abyss-1100 dark:bg-abyss-1100 dark:border-nett-maid border-2 w-full h-12 rounded-md p-2"
+                    class="border-chaos-primary dark:bg-chaos-primary dark:border-chaos-foreground border-2 w-full h-12 rounded-md p-2"
                   /> </div>
                 <div
                   v-if="inputThing.type === 'number'"
@@ -48,7 +48,7 @@
                     v-model="input.number"
                     @keyup="submitOrNah"
                     type="number"
-                    class="border-abyss-1100 dark:bg-abyss-1100 dark:border-nett-maid border-2 w-full h-12 rounded-md p-2"
+                    class="border-chaos-primary dark:bg-chaos-primary dark:border-chaos-foreground border-2 w-full h-12 rounded-md p-2"
                   /> </div>
                 <div
                   v-if="inputThing.type === 'boolean'"
@@ -58,7 +58,7 @@
                     v-model="input.condit"
                     @keyup="submitOrNah"
                     type="checkbox"
-                    class="border-abyss-1100 dark:bg-abyss-1100 dark:border-nett-maid border-2 w-full h-12 rounded-md p-2"
+                    class="border-chaos-primary dark:bg-chaos-primary dark:border-chaos-foreground border-2 w-full h-12 rounded-md p-2"
                   /> </div>
               </div>
               <div class="flex flex-col items-start justify-start">

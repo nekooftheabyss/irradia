@@ -4,8 +4,8 @@
       w-full
       flex flex-row
       p-2
-      bg-abyss-1000/60
-      border-t-1 border-nett-maid
+      bg-chaos-primary/60
+      border-t-1 border-chaos-foreground
       justify-between
     "
   >
@@ -14,7 +14,7 @@
         <img src="/icon.png" class="w-24 rounded-full object-cover" />
       </div>
       <div class="flex flex-col items-start">
-        <div class="font-semibold text-nett-maid">Some Text</div>
+        <div class="font-semibold text-chaos-foreground">Some Text</div>
         <div class="text-sm">Some more text</div>
       </div>
     </div>

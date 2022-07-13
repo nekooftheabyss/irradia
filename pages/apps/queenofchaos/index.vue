@@ -49,7 +49,7 @@
         <div class="p-4">
           <p class="text-md font-bold tracking-wide uppercase py-2">Roleplay Commands</p>
           <p>Kuro has multiple text-based and image based roleplay commands that include various anime action gifs such as hug, slap, hit, kiss, etc., that return various anime gifs from <a href="http://api.nekooftheabyss.xyz/"
-               target="_blank">our API!</a> A few commands including the <code class="text-nett-maid">cuddle</code> and <code class="text-nett-maid">tickle</code> commands are powered by <a href="http://nekos.life/"
+               target="_blank">our API!</a> A few commands including the <code class="text-chaos-foreground">cuddle</code> and <code class="text-chaos-foreground">tickle</code> commands are powered by <a href="http://nekos.life/"
                target="_blank">Nekos.life</a>.</p>
 
         </div>
@@ -72,7 +72,7 @@
         </div>
         <div class="p-4">
           <p class="text-md font-bold tracking-wide uppercase py-2">Fun Commands</p>
-          <p>Kuro has funny <code class="text-nett-maid">kill</code> and <code class="text-nett-maid">isekai</code> commands that return weird random results. She also possesses the generic ratewaifu and ship commands with an additional feature of rating whether the user is tsundere/yandere or any other dere. <i> <strong> Oh and of course, she can even chat with you through the <code class="text-nett-maid">chat</code> command with enough knowledge to know the watch order of the Fate series.</strong></i>
+          <p>Kuro has funny <code class="text-chaos-foreground">kill</code> and <code class="text-chaos-foreground">isekai</code> commands that return weird random results. She also possesses the generic ratewaifu and ship commands with an additional feature of rating whether the user is tsundere/yandere or any other dere. <i> <strong> Oh and of course, she can even chat with you through the <code class="text-chaos-foreground">chat</code> command with enough knowledge to know the watch order of the Fate series.</strong></i>
           </p>
 
         </div>
@@ -85,11 +85,11 @@
           <p class="text-md font-bold tracking-wide uppercase py-2">The Abyss</p>
           <p>Kuro has tons of chat-based RPG-like commands that include both PvE and PvP commands.
           <ul class="pl-4 text-left list-disc list-outside">
-            <li>Start off by using the <code class="text-nett-maid">ability</code> command to get yourself an ability for starters!</li>
-            <li>Now that you have an ability, you can test it by duelling other users with the <code class="text-nett-maid">duel</code> command or duelling random enemies with the <code class="text-nett-maid">abyss</code> command! You can navigate through turns using the arrow reactions on the resulting message.</li>
-            <li>So, now that you are good with the fight part, lets go for the rng part. The <code class="text-nett-maid">train</code> and <code class="text-nett-maid">explore</code> commands can be used to gain exp and increase stats. There is a <code class="text-nett-maid">daily</code> command to obtain your daily rewards! Rewards accumulate each consecutive day you use this command. You can check the cooldown of these commands with the <code class="text-nett-maid">cooldown</code> command.</li>
-            <li>We have the <code class="text-nett-maid">shop</code> command where you can put your points to use. Buy items with the <code class="text-nett-maid">buy</code> command, check your inventory through the <code class="text-nett-maid">inventory</code> command and use items through the <code class="text-nett-maid">use</code> command!</li>
-            <li>Last but not the least, upvote the bot every 12 hours with the <code class="text-nett-maid">vote</code> command to get a reroll ticket, an ultimate crystal and some points. The reroll ticket can be used with the <code class="text-nett-maid">use</code> command or the <code class="text-nett-maid"> reroll</code> command to reroll for a new ability.</li>
+            <li>Start off by using the <code class="text-chaos-foreground">ability</code> command to get yourself an ability for starters!</li>
+            <li>Now that you have an ability, you can test it by duelling other users with the <code class="text-chaos-foreground">duel</code> command or duelling random enemies with the <code class="text-chaos-foreground">abyss</code> command! You can navigate through turns using the arrow reactions on the resulting message.</li>
+            <li>So, now that you are good with the fight part, lets go for the rng part. The <code class="text-chaos-foreground">train</code> and <code class="text-chaos-foreground">explore</code> commands can be used to gain exp and increase stats. There is a <code class="text-chaos-foreground">daily</code> command to obtain your daily rewards! Rewards accumulate each consecutive day you use this command. You can check the cooldown of these commands with the <code class="text-chaos-foreground">cooldown</code> command.</li>
+            <li>We have the <code class="text-chaos-foreground">shop</code> command where you can put your points to use. Buy items with the <code class="text-chaos-foreground">buy</code> command, check your inventory through the <code class="text-chaos-foreground">inventory</code> command and use items through the <code class="text-chaos-foreground">use</code> command!</li>
+            <li>Last but not the least, upvote the bot every 12 hours with the <code class="text-chaos-foreground">vote</code> command to get a reroll ticket, an ultimate crystal and some points. The reroll ticket can be used with the <code class="text-chaos-foreground">use</code> command or the <code class="text-chaos-foreground"> reroll</code> command to reroll for a new ability.</li>
           </ul>
           </p>
 

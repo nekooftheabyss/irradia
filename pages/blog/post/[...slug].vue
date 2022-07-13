@@ -29,7 +29,7 @@
 .prose h2 a {
   @apply no-underline transition duration-500 ease-in-out block font-bold border-b border-neutral-600 dark:border-neutral-300;
   &:hover {
-    @apply text-zinc-600 dark:text-maid-100;
+    @apply text-zinc-600 dark:text-chaos-foreground;
   }
 }
 .prose h3 a {

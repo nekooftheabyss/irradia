@@ -1,6 +1,6 @@
 
 <template>
-  <footer class="bg-abyss-1000 text-white shadow-md text-center md:text-left">
+  <footer class="bg-none dark:bg-chaos-primary text-chaos-primary dark:text-white shadow-md text-center md:text-left">
     <div
       class="
         sm:flex
@@ -20,7 +20,7 @@
           <a
             href="https://github.com/retraigo"
             target="_blank"
-            class="font-bold text-nett-maid"
+            class="font-bold text-chaos-tertiary dark:text-chaos-foreground"
           >
             NeTT
           </a>
@@ -31,7 +31,7 @@
             flex flex-row
             items-center
             fill-transparent flex justify-center
-            stroke-white stroke-2
+            stroke-chaos-primary dark:stroke-chaos-foreground stroke-2
             cursor-pointer
             space-x-4
           "
@@ -42,7 +42,7 @@
           <SVGMoon v-show="!isDark" />
         </div>
       </div>
-      <div class="flex-initial mt-3 sm:mt-0 text-nett-maid">
+      <div class="flex-initial mt-3 sm:mt-0 dark:text-chaos-foreground">
         <a
           href="https://nekooftheabyss.moe"
           target="_blank"

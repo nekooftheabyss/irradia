@@ -37,8 +37,8 @@
                     @keyup="submitOrNah"
                     type="text"
                     class="
-                      border-abyss-1100
-                      dark:bg-abyss-1100 dark:border-nett-maid
+                      border-chaos-primary
+                      dark:bg-chaos-primary dark:border-chaos-foreground
                       border-2
                       w-full
                       h-12
@@ -58,8 +58,8 @@
                     @keyup="submitOrNah"
                     type="number"
                     class="
-                      border-abyss-1100
-                      dark:bg-abyss-1100 dark:border-nett-maid
+                      border-chaos-primary
+                      dark:bg-chaos-primary dark:border-chaos-foreground
                       border-2
                       w-full
                       h-12

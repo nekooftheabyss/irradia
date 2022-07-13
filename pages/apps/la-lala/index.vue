@@ -19,7 +19,7 @@
               dark:text-white
               font-extrabold
               text-xl
-              border-nett-maid border-b-2
+              border-chaos-foreground border-b-2
             "
           >
             Lala

@@ -21,22 +21,22 @@
     <div class="flex flex-col items-start space-y-4 text-center">
       <div class="p-2 w-full">
         Written by
-        <a href="https://github.com/retraigo" class="text-nett-maid">Pranev</a>
+        <a href="https://github.com/retraigo" class="text-chaos-foreground">Pranev</a>
       </div>
       <div class="p-2 w-full">
-        Made with <a href="https://nuxtjs.org" class="text-nett-maid">Nuxt 3</a>
+        Made with <a href="https://nuxtjs.org" class="text-chaos-foreground">Nuxt 3</a>
       </div>
-      <!--        <div class = "p-2">Background from <a href = "https://svgbackgrounds.com" class = "text-nett-maid">SVGBackgrounds.com</a></div>-->
+      <!--        <div class = "p-2">Background from <a href = "https://svgbackgrounds.com" class = "text-chaos-foreground">SVGBackgrounds.com</a></div>-->
       <div class="p-2 w-full">
         Font used -
         <a
           href="https://fonts.google.com/specimen/Montserrat"
-          class="text-nett-maid"
+          class="text-chaos-foreground"
           >Montserrat</a
         >
       </div>
       <div class="p-2 w-full">
-        Credits to the color <span class="text-nett-maid">#ff00c3</span> for
+        Credits to the color <span class="text-chaos-foreground">#ff00c3</span> for
         existing.
       </div>
     </div>

@@ -51,7 +51,7 @@ export default {
 </script>
 <template>
   <div class="
-      dark:bg-abyss-1100/30
+      dark:bg-chaos-primary/30
       bg-white/10
       shadow-md
       max-w-full
@@ -133,7 +133,7 @@ export default {
               />
             </NuxtLink>
           </div>
-          <div :class="`overflow-y-scroll md:overflow-y-hidden z-40 block h-full top-0 left-0 bg-white dark:bg-abyss-1100 md:bg-transparent fixed md:static transform transition duration-500 ease-in-out md:translate-x-0 p-8 md:p-0 md:block ${
+          <div :class="`overflow-y-scroll md:overflow-y-hidden z-40 block h-full top-0 left-0 bg-white dark:bg-chaos-primary md:bg-transparent fixed md:static transform transition duration-500 ease-in-out md:translate-x-0 p-8 md:p-0 md:block ${
               toggleNav ? 'translate-x-0' : '-translate-x-110 md:ml-6'
             }`">
             <NuxtLink to="/">
@@ -165,10 +165,10 @@ export default {
                     :to="typeof route == 'string' ? route : '#'"
                     :class="
                       (title === key
-                        ? 'text-nett-maid '
+                        ? 'text-chaos-foreground '
                         : 'text-black dark:text-white border-transparent ') +
                       (Array.isArray(route) ? 'group ' : '') +
-                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md hover:dark:text-nett-maid hover:text-zinc-800 block'
+                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md hover:dark:text-chaos-foreground hover:text-zinc-800 block'
                     "
                   >
                     <span class="py-1">{{ name }}</span>
@@ -179,10 +179,10 @@ export default {
                     @click="(x) => setState(key)"
                     :class="
                       (title === key
-                        ? 'text-nett-maid '
+                        ? 'text-chaos-foreground '
                         : 'dark:text-white text-black ') +
                       (Array.isArray(route) ? 'group ' : '') +
-                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md hover:dark:text-nett-maid hover:text-zinc-800 block'
+                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md hover:dark:text-chaos-foreground hover:text-zinc-800 block'
                     "
                   >
                     <span class="py-1">{{ name }}</span>
@@ -226,10 +226,10 @@ export default {
                     :href="typeof route == 'string' ? route : '#'" target="_blank"
                     :class="
                       (title === key
-                        ? 'text-nett-maid '
+                        ? 'text-chaos-foreground '
                         : 'dark:text-white text-black ') +
                       (Array.isArray(route) ? 'group ' : '') +
-                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md hover:dark:text-nett-maid hover:text-zinc-800 block'
+                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md hover:dark:text-chaos-foreground hover:text-zinc-800 block'
                     "
                   >
                     <span class="py-1">{{ name }}</span>

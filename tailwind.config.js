@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: {
       spacing: {
-        '102': '32rem',
-        '108': '36rem',
+        "102": "32rem",
+        "108": "36rem",
       },
       maxWidth: {
         "8xl": "90rem",
@@ -34,6 +34,13 @@ export default {
             200: "#1a0014",
             300: "#160011",
           },
+        },
+        chaos: {
+          primary: `#1d0016`,
+          secondary: `#2e0324`,
+          tertiary: `#3b2836`,
+          border: `#33252f`,
+          foreground: `#fccef1`,
         },
         abyss: {
           100: "#9900ff",

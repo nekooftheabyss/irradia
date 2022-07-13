@@ -52,8 +52,8 @@ export default {
 <template>
   <div
     class="
-      bg-abyss-1000
-      dark:md:bg-abyss-1000/70
+      bg-chaos-primary
+      dark:md:bg-chaos-primary/70
       shadow-md
       max-w-full
       block
@@ -65,52 +65,34 @@ export default {
   >
     <div class="max-w-9xl mx-auto px-2 md:px-6 lg:px-8 md:mt-4">
       <div class="relative flex items-center justify-between h-16">
-        <div class="relative inset-y-0 left-0 flex items-center md:hidden">
+        <div class="relative inset-y-0 left-0 flex items-center lg:hidden">
           <button
             :class="`
               inline-flex
               items-center
-              ${toggleNav ? 'hidden' : 'block'}
               justify-center
               p-2
               rounded-md
               text-white md:text-zinc-700 dark:text-white
               hover:text-zinc-700 dark:text-white
-              focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white
             `"
-            @click="toggleOn"
+            @click="toggleBoth"
           >
             <span class="sr-only">Open menu</span>
-
             <svg
-              class="block h-6 w-6"
+              class="block h-8 w-8 stroke-white"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+              viewBox="0 0 30 24"
               aria-hidden="true"
             >
               <path
+                class="transition-all duration-500 transform ease-in-out"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-
-            <svg
-              class="hidden h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M6 18L18 6M6 6l12 12"
+                :d="
+                  toggleNav ? `M6 24L24 6M6 6l18 18` : `M4 6h24M4 14h16M4 22h24`
+                "
               />
             </svg>
           </button>
@@ -139,8 +121,8 @@ export default {
             </NuxtLink>
           </div>
           <div
-            :class="`overflow-y-scroll md:overflow-y-hidden z-40 block h-full top-0 left-0 bg-white dark:bg-abyss-1000 dark:md:bg-transparent md:bg-transparent fixed md:static transform transition duration-500 ease-in-out md:translate-x-0 p-8 md:p-0 md:block ${
-              toggleNav ? 'translate-x-0' : '-translate-x-110 md:ml-6'
+            :class="`overflow-y-scroll md:overflow-y-hidden z-40 block h-full top-12 left-0 w-full lg:w-auto bg-white dark:bg-chaos-primary dark:md:bg-transparent md:bg-transparent fixed md:static transform transition duration-500 ease-in-out md:translate-x-0 p-8 md:p-0 md:block ${
+              toggleNav ? 'translate-x-0' : '-translate-x-120 md:ml-6'
             }`"
           >
             <NuxtLink to="/">
@@ -163,16 +145,16 @@ export default {
                   pt-10
                 "
               >
-                <div v-for="{ name, route, key } in Navigation" :key="key">
+                <div v-for="{ name, route, key, tag } in Navigation" :key="key">
                   <NuxtLink
                     v-if="typeof route === 'string' && route.startsWith('/')"
                     :to="typeof route == 'string' ? route : '#'"
                     :class="
                       (title === key
-                        ? 'text-nett-maid '
+                        ? 'text-chaos-foreground '
                         : 'text-white border-transparent ') +
                       (Array.isArray(route) ? 'group ' : '') +
-                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md font-semibold hover:dark:text-nett-maid hover:text-zinc-800 block'
+                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md font-semibold hover:dark:text-chaos-foreground hover:text-zinc-800 block'
                     "
                   >
                     <span class="py-1">{{ name }}</span>
@@ -182,9 +164,9 @@ export default {
                     :href="'javascript:void(0)'"
                     @click="(x) => setState(key)"
                     :class="
-                      (title === key ? 'text-nett-maid ' : 'text-white') +
+                      (title === key ? 'text-chaos-foreground ' : 'text-white') +
                       (Array.isArray(route) ? 'group ' : '') +
-                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md font-semibold hover:dark:text-nett-maid hover:text-zinc-800 block'
+                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md font-semibold hover:dark:text-chaos-foreground hover:text-zinc-800 block'
                     "
                   >
                     <span class="py-1">{{ name }}</span>
@@ -232,14 +214,15 @@ export default {
                     target="_blank"
                     :class="
                       (title === key
-                        ? 'text-nett-maid '
+                        ? 'text-chaos-foreground '
                         : 'dark:text-white text-black ') +
                       (Array.isArray(route) ? 'group ' : '') +
-                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md font-semibold hover:dark:text-nett-maid hover:text-zinc-800 block'
+                      'transition duration-500 ease-in-out tracking-wide px-3 flex flex-row space-x-4 md:uppercase py-4 text-xs md:text-md font-semibold hover:dark:text-chaos-foreground hover:text-zinc-800 block'
                     "
                   >
                     <span class="py-1">{{ name }}</span>
                   </a>
+                  <MiscTag v-if="tag">{{ tag }}</MiscTag>
                 </div>
               </div>
             </div>

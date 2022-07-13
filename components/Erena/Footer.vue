@@ -1,8 +1,8 @@
 <template>
   <div
     class="
-      dark:bg-abyss-1000/20 mt-72
-      bg-abyss-1000/90
+      dark:bg-chaos-primary/20 mt-72
+      bg-chaos-primary/90
       text-white
       md:h-48
       p-8
@@ -11,7 +11,7 @@
       items-center
     "
   >
-    <hr class="max-w-6xl border border-nett-maid w-full" />
+    <hr class="max-w-6xl border border-chaos-foreground w-full" />
     <div
       class="
         max-w-6xl
@@ -29,7 +29,7 @@
       <div class="p-2 flex flex-col space-y-4 items-center text-center">
         <a href="/" class="text-2xl font-black">Go Home</a>
         <span
-          class="flex flex-row items-center stroke-nett-maid stroke-1 space-x-2"
+          class="flex flex-row items-center stroke-chaos-foreground stroke-1 space-x-2"
         >
           <a
             href="https://github.com/retraigo"

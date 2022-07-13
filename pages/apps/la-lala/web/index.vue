@@ -63,7 +63,7 @@
             <a
               href="https://github.com/retraigo/lala/blob/main/LICENSE"
               target="_blank"
-              class="text-nett-maid"
+              class="text-chaos-foreground"
               >the license</a
             >
             for information about copyright.

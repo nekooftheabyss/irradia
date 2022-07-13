@@ -7,7 +7,7 @@
           <a :href="`#${item.id}`" class = "text-zinc-800 dark:text-maid-300">{{ item.text }}</a>
           <ul v-if = "item.children" class="space-y-4 list-disc ml-4">
           <li v-for="nestedItem in item.children" :key="nestedItem.id">
-          <a :href="`#${nestedItem.id}`" class = "text-zinc-800 dark:text-maid-100">{{ nestedItem.text }}</a>
+          <a :href="`#${nestedItem.id}`" class = "text-zinc-800 dark:text-chaos-foreground">{{ nestedItem.text }}</a>
           </li>
           </ul>
         </li>
